@@ -91,7 +91,7 @@ function displayInfo(info) {
 
   oxidationStates.innerText = "Oxidation states : " + info.oxidationStates;
   standardState.innerText = "Standard physical state : " + info.standardState;
-  density.innerText = "Density : " + info.density;
+  density.innerText = "Density : " + info.density + " g/cm^3";
   groupBlock.innerText = "Type : " + info.groupBlock;
   yearDiscovered.innerText = "Year discovered : " + info.yearDiscovered;
 
