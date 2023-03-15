@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #efefef;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.elementName {
+  width: 30vw;
+  height: 6vh;
+  font-size: 1.5rem;
+  padding: 5px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 0px;
+}
+
+.search {
+  width: 80px;
+  height: 8vh;
+  padding: 5px;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #4020cf;
+  border-radius: 0px;
+  color: white;
+}
+
+.search:hover {
+  background-color: #2f13ac;
+}
+
+.helperText {
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.github {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  padding: 10px;
+  transform: translateY(30vh);
+}
+
+.newMain {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+.exitContainer {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.exitIcon {
+  width: 40px;
+  height: 40px;
+  margin: 40px;
+  transition: 0.1s ease-in-out;
+}
+
+.exitIcon:hover {
+  width: 50px;
+  height: 50px;
+}
+
+.symbolContainer {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.symbol {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  transition: 0.2s ease-in-out;
+}
+
+.symbolAtomicMass {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.symbolAtomicNumber {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.symbolText {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+}
+
+.remInfo {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+
+.remInfoLeft,
+.remInfoRight {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.remText {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  padding-left: 12.5vw;
+  margin: 5px;
+}
