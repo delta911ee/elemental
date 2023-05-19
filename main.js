@@ -29,7 +29,7 @@ function displayInfo(info) {
   exitContainer.classList.add("exitContainer");
 
   let exitIcon = document.createElement("img");
-  exitIcon.src = "../assets/exit.svg";
+  exitIcon.src = "assets/exit.svg";
   exitIcon.classList.add("exitIcon");
 
   let symbolContainer = document.createElement("div");
